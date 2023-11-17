@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&family=Roboto:wght@900&family=Tektur:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li,a,button {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10%;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.nav_mid {
+    list-style: none;
+}
+
+
+.nav_mid li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.nav_mid li a:hover{
+    font-weight: 10px;
+}
+
+
+video {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+.text {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+}
+button {
+    padding: 20px 40px;
+    border: 1px solid black;
+    border-radius: 0px;
+    background-color: transparent;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
